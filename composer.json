@@ -1,11 +1,4 @@
 {
-    "name": "instar-php",
-    "authors": [
-        {
-            "name": "Rafael Eduardo",
-            "email": "rafaeleduardowork@gmail.com"
-        }
-    ],
     "require": {
     	"phpmailer/phpmailer":"5.2.27",
     }
