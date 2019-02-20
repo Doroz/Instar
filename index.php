@@ -4,7 +4,7 @@ include "funcao.php";
 if(isset($_POST['nome']))
 {
 	$dados = array($_POST['nome'], $_POST['telefone'], $_POST['endereco'], $_POST['bairro'], $_POST['mensagem']);
-    if(sendMail($_POST['email'],'rafaeleduardowork@gmail.com', $dados, 'Formulário de cadastro Instar'))
+    if(sendMail($_POST['email'],'joaopaulo@instar.com.br', $dados, 'Formulário de cadastro Instar'))
     {
         echo "Sua mensagem foi enviada com sucesso!";
     }
